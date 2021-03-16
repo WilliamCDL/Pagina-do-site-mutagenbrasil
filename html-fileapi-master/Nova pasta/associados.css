@@ -1,0 +1,163 @@
+/* CSS Document */
+body{
+	background-image: url(../_img/login/fundo.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.top_sub {
+	height: inherit !important;
+	background-color: #FFF;
+}
+#content{
+	margin-top: 76px;
+}
+
+#nenhum_encontrado {
+	
+	font-size: 14px;
+	color: #797a7c;	
+}
+
+.pageNumber {
+	position:relative;
+	clear:both;
+	text-align:center;
+	
+	font-size: 20px;
+	color: rgb(2, 64, 125);
+	height: 70px;
+	padding-top: 20px;
+}
+.pageNumber img{
+	margin-top: 4px;	
+}
+.pageNumber li{
+	display:inline-block;
+	margin: 5px;
+}
+.pageNumber a:link{
+	color: #c0bcbc;	
+}
+.pageNumber a:hover{
+	color: rgb(2, 64, 125);
+}
+.pageNumber a:visited{
+	color: #c0bcbc;	
+}
+
+#lista_associados{
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#lista_associados li{
+	border-bottom: solid 1px #CCC;
+	padding: 25px;
+	overflow: hidden;
+}
+#lista_associados .left{
+	width: 47%;
+	float: left;
+	text-align: right;
+	color: #666;
+}
+#lista_associados .left h2{
+	color: rgb(2, 64, 125);
+	font-size: 18px;
+	font-weight: bold;
+}
+#lista_associados .right{
+	width: 47%;
+	float: right;
+	text-align: left;
+}
+#lista_associados li .lattes svg{
+	width: 40px;
+	margin-top: 10px;
+	color: rgba(3,63,125,1) !important;
+    fill: rgba(3,63,125,1) !important;
+}
+
+
+#svg-map path {
+  fill: #3bb3c3
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 26px Arial-BoldMT, sans-serif;
+  cursor: pointer
+}
+
+#svg-map a {
+  text-decoration: none
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+#svg-map a:hover path {
+  fill: #003399 !important;
+}
+
+
+
+#svg-map .circle {
+  fill: #29828E;
+}
+
+#svg-map a:hover .circle {
+  fill: #003399 !important;
+  cursor: pointer
+}
+#mapa{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 50px;
+}
+.mobile #mapa{
+ display: none;
+}
+.selmap{
+	fill: #003399 !important;
+}
+#legenda{
+	position: absolute;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	z-index: 10px;
+	top: 100px;
+	left: 100px;
+	background-color: #FFFFFF;
+	border: 1px solid #3bb3c3;
+	color: #3bb3c3;
+	font-size: 14px;
+	display: none;
+}
+.popup, #menu_left_busca{
+	width: 24%;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+#menu_left_busca{
+	height: 38px;
+}
+#cidade{
+	width: 22%;	
+}
+.mobile #cidade{
+	width: 100%;	
+}
+#atividade_profissional{
+	width: 26%;	
+}
+.mobile #atividade_profissional{
+	width: 100% !important;	
+}

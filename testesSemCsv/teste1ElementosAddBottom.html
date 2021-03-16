@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang:"pt-br">
+<head>
+	<title>vazio</title>
+	<meta charset="UTF-8" />
+
+	<script>
+		function myFunction(){
+			var tbl = document.getElementById("myTable");
+			var row = tbl.insertRow();
+			var cell1 = row.insertCell();
+			var cell2 = row.insertCell();
+			var cell3 = row.insertCell();
+			var cell4 = row.insertCell();
+			cell1.innerHTML = "S321";
+			cell2.innerHTML = "Baby toy Car";
+			cell3.innerHTML = "2";
+			cell4.innerHTML = "2018-01-2000";
+		}
+
+	</script>
+
+</head>
+
+<body>
+	<input type="button" value="Add to cart" onclick="myFunction();">
+	<h1>My Shopping Cart<h1>
+	<table border=1 id="myTable">
+		<tr>
+			<td>Product ID</td>
+			<td>Product Description</td>
+			<td>Quantity</td>
+			<td>Ordered</td>
+		</tr>
+	</table>
+</body>
+</html>
